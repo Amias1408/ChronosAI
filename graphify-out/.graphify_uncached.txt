@@ -1,0 +1,8 @@
+C:\Users\Trevor\Desktop\AI-SYSTEMS\Chronos\data\corpus\aesops_fables.txt
+C:\Users\Trevor\Desktop\AI-SYSTEMS\Chronos\data\corpus\alice_in_wonderland.txt
+C:\Users\Trevor\Desktop\AI-SYSTEMS\Chronos\data\corpus\chronos_notes.txt
+C:\Users\Trevor\Desktop\AI-SYSTEMS\Chronos\data\corpus\dialogue.txt
+C:\Users\Trevor\Desktop\AI-SYSTEMS\Chronos\data\corpus\dialogue_paraphrase.txt
+C:\Users\Trevor\Desktop\AI-SYSTEMS\Chronos\data\corpus\sherlock_holmes.txt
+C:\Users\Trevor\Desktop\AI-SYSTEMS\Chronos\data\corpus\wizard_of_oz.txt
+C:\Users\Trevor\Desktop\AI-SYSTEMS\Chronos\data\seed\about.txt

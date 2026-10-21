@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>chronos</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Chronos.Core\Chronos.Core.csproj" />
+    <ProjectReference Include="..\Chronos.Model\Chronos.Model.csproj" />
+    <ProjectReference Include="..\Chronos.Tokenizer\Chronos.Tokenizer.csproj" />
+    <ProjectReference Include="..\Chronos.Training\Chronos.Training.csproj" />
+    <ProjectReference Include="..\Chronos.Server\Chronos.Server.csproj" />
+  </ItemGroup>
+
+</Project>

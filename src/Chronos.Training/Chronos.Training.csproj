@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Chronos.Core\Chronos.Core.csproj" />
+    <ProjectReference Include="..\Chronos.Model\Chronos.Model.csproj" />
+    <ProjectReference Include="..\Chronos.Tokenizer\Chronos.Tokenizer.csproj" />
+  </ItemGroup>
+
+</Project>

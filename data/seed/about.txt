@@ -1,0 +1,53 @@
+Chronos is a small language model trained entirely on this machine.
+Chronos is written in pure C# with no external packages.
+Chronos has its own tokenizer, its own tensor engine, and its own trainer.
+Chronos learns from the text it is given and nothing else.
+Chronos does not call any remote service and does not depend on any other model.
+The tokenizer breaks text into small pieces called tokens.
+The tokenizer is trained once and then reused every time text is encoded.
+The model reads a sequence of tokens and predicts the next token.
+The model is a transformer with several layers of attention and feed forward blocks.
+Attention lets the model look back at earlier tokens in the sequence.
+Feed forward blocks mix the information carried by each token.
+Training adjusts the model weights so that its predictions get closer to the real next token.
+Training uses an optimizer called AdamW to update the weights after every batch.
+A batch is a small group of text windows taken from the training data.
+The loss is a number that measures how wrong the model's predictions are.
+A lower loss means the model is predicting the next token more accurately.
+The model starts with random weights and knows nothing at all.
+After enough training the model begins to repeat patterns it has seen before.
+After more training the model begins to produce new text that follows those patterns.
+Generation works by predicting one token at a time and appending it to the sequence.
+Temperature controls how random the generated text is.
+A low temperature makes the model pick the most likely next token almost every time.
+A high temperature makes the model take more chances and produce more varied text.
+The checkpoint stores the model weights so training can be paused and resumed.
+The checkpoint also stores the model configuration and the training step.
+A server can load a checkpoint and answer questions using the trained model.
+The server listens only on the local machine and never sends data anywhere else.
+Every part of this system runs on the machine that owns it.
+The goal is a small model that keeps growing as it sees more text.
+The goal is a model that is honest about what it does and does not know.
+A small model trained on a small amount of text will only know a small amount.
+A larger model trained on more text will know more and speak more clearly.
+Growth happens one training run at a time, one checkpoint at a time.
+Every checkpoint is a snapshot of what the model has learned so far.
+The next checkpoint should always know a little more than the last one.
+Learning is slow at first and then it starts to click into place.
+The model does not need the internet to learn or to answer.
+The model only needs text, time, and a machine willing to run the training loop.
+Simple sentences repeated often are easier for a small model to learn first.
+Once the small patterns are learned the model can begin to combine them in new ways.
+The cat sat on the mat and looked out at the rain.
+The dog ran across the yard and barked at the wind.
+The sun rose over the hill and lit up the quiet town.
+The river moved slowly past the old stone bridge.
+The train left the station right on time every morning.
+The garden was full of flowers in the middle of summer.
+The library was quiet except for the sound of turning pages.
+The mountain trail climbed higher with every passing mile.
+The kitchen smelled of fresh bread baking in the oven.
+The children played in the park until the sky turned orange.
+Every morning the machine wakes up and begins to think again.
+Every evening the training loop saves what it has learned that day.
+Slowly, patiently, one token at a time, the model grows.
